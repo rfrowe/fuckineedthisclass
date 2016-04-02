@@ -1,0 +1,134 @@
+body {
+    font: 100%/1.4em Verdana, Arial, Helvetica, sans-serif;
+    background-color: #b6e5e4;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+section.main {
+    padding-top: 1em;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.header, header nav ul {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Header Stuff
+*/
+header#logo {
+    background: background url("/images/logo.svg") center no-repeat;
+    background-size: 2em 2em;
+}
+
+header {
+    background-color: #0eaba7;
+    width: 100%;
+}
+header section.header {
+    height: 4em;
+}
+header h1 {
+    margin: 0;
+    padding: 0.5em 0em;
+    line-height: 1em;
+    display: inline-block;
+    font-size: 200%;
+}
+
+header a {
+    text-decoration: none;
+    color: unset;
+}
+
+/*
+    Nav
+*/
+nav {
+    -webkit-transition: height 0.3s ease-out;
+	-ms-transition: height 0.3s ease-out;
+	-moz-transition: height 0.3s ease-out;
+	-o-transition: height 0.3s ease-out;
+	transition: height 0.3s ease-out;
+
+    overflow: hidden;
+    height: 0;
+    background-color: #043332;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+header:hover nav {
+    height: 2em;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+nav ul li {
+    color: #FFF;
+    height: 2em;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 19%;
+
+    -webkit-transition: background-color 0.3s ease-out;
+	-ms-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	-o-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out;
+}
+nav ul li:hover {
+    background-color: #086664;
+}
+nav ul li a {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 0.5em 0 0.5em;
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+}
+
+/*
+    Button
+*/
+#start {
+    border-radius: 0.75em;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: #EEE;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
+    -webkit-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#start:hover {
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 0.3em 0px #000000;
+    box-shadow: 0px 0px 0.3em 0px #000000;
+}
+
+@media only screen and (max-width: 950px) {
+    section.main {
+        width: 80%;
+    } header nav ul, section.header {
+        width:90%;
+    }
+}
+
+@media only screen and (min-width: 642px) {
+
+}
