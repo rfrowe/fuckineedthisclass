@@ -1,0 +1,29 @@
+body {
+	padding-top: 50px;
+}
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+.navbar-inverse {
+	background-color: #000;
+	border-color: #000;
+}
+
+#stat-panel-1 {
+	float: left;
+	width: 47.5%;
+	margin-right: 2.5%;
+}
+
+#stat-panel-2 {
+	float: left;
+	width: 47.5%;
+	margin-left: 2.5%;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	clip: rect(15px,0px,0px,0px);
+	width: auto;
+}
